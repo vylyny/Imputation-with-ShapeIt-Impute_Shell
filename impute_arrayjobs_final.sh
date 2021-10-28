@@ -13,7 +13,7 @@ echo This is chunk start  $CHUNK_START
 echo This is chunk end $CHUNK_END
 
 #Directories
-Root=/scratch/kirchhoff/Project-IT-GWAS-CLUSTER/B37_Imputation 
+Root=XXX/Project-IT-GWAS-CLUSTER/B37_Imputation 
 Data_Ref=$Root/1000GP_Phase3_Ref.Panel
 Data_Dir=$Root/Imputation_11148/prephase_results
 Result=$Root/Imputation_11148/imputation_results
