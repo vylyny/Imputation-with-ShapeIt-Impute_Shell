@@ -9,7 +9,7 @@ module load plink/1.90b4.4
 CHR=${SLURM_ARRAY_TASK_ID}
 
 #Directories
-Data_Dir=/scratch/kirchhoff/Project-IT-GWAS-CLUSTER/B37_Imputation/Imputation_11148
+Data_Dir=/XXX/B37_Imputation/Imputation_11148
 Result_Dir=$Data_Dir/prephase_results
  
 # executable
@@ -17,7 +17,7 @@ SHAPEIT_EXEC=/scratch/kirchhoff/tools/shapeit
 
  
 # reference data files
-GENMAP_FILE=/scratch/kirchhoff/Project-IT-GWAS-CLUSTER/B37_Imputation/1000GP_Phase3_Ref.Panel/genetic_map_chr${CHR}_combined_b37.txt
+GENMAP_FILE=/XXX/B37_Imputation/1000GP_Phase3_Ref.Panel/genetic_map_chr${CHR}_combined_b37.txt
 
 #Cut the original files into chr
 plink \
